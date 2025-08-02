@@ -13,7 +13,7 @@ import AuditLogViewer from './components/audit/AuditLogViewer';
 
 
 axios.defaults.baseURL = process.env.NODE_ENV === 'production' 
-  ? '/api' 
+  ? 'https://vercel-backend-one-theta.vercel.app/api' 
   : 'http://localhost:5000/api';
 
 function App() {
